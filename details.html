@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>卡牌一覽</title>
+  <link href="https://fonts.googleapis.com/css2?family=Libre+Bodoni:ital,wght@0,400..700;1,400..700&family=Noto+Serif+TC&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0E074C;
+      color: #E5BA79;
+      font-family: "Playfair Display","Noto Serif TC", serif;
+      text-align: center;
+    }
+
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .btn {
+      background-color: #0E074C;
+      color: white;
+      padding: 15px 30px;
+      text-align: center;
+      text-decoration: none;
+      font-size: 25px;
+      cursor: pointer;
+      border: none;
+      transition: background-color 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #1C0F76;
+    }
+
+    .text-content {
+      flex: 1;
+      text-align: left;
+    }
+
+    .text-content h1,
+    .text-content h2,
+    .text-content p {
+      margin-left: 25%;
+      font-weight: 600;
+    }
+
+    .text-content a {
+      color: #FFD700;
+    }
+
+    .image-container {
+      position: relative; 
+      flex: 1;
+    }
+
+    .image-container img {
+      border: 10px double #E5BA79;
+      max-width: 55%;
+      margin-right: 10%;
+    }
+
+    .image-text-overlay {
+      position: absolute; 
+      bottom: 3%;
+      left: -5%;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+    }
+
+    .image-text-overlay p {
+      font-family: "Libre Bodoni", serif;
+      color: white;
+      font-size: 28px;
+      font-weight: 500;
+    }
+
+    .hidden {
+      display: none;
+    }
+    
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <a href="#" class="btn" onclick="goToPreviousImage()">&blacktriangleleft;</a>
+    <div class="text-content">
+      <h1 id="main-title">牌名</h1>
+      <h2 id="sub-title">角色</h2>
+      <p id="detail-message">繪師資料<a href="https://example.com">超連結</a></p>
+    </div>
+    <div class="image-container" onclick="toggleText()">
+      <img src="" alt="圖片詳細" id="detail-image">
+      <div class="image-text-overlay" id="image-text-overlay">
+        <p>牌名</p>
+      </div>
+    </div>
+    <a href="#" class="btn" onclick="goToNextImage()">&blacktriangleright;</a>
+  </div>
+  <script src="JS/details.js"></script>
+</body>
+
+</html>

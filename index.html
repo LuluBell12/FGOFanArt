@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>非的幹不過歐的</title>
+  <style>
+    body {
+      background-color: #0E074C; 
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+    }
+    .image-container {
+      position: relative;
+    }
+    .image-container img{
+      clip-path: polygon(0 0, 100% 0, 100% 55%, 0 55%);
+      max-width: 68%;
+    }
+    .blinking-text{
+      animation: blink 1s infinite;
+    }
+    @keyframes blink{
+      0%,100%{opacity: 1;}
+      50%{opacity: 0;}
+    }
+    .bottom-text{
+      font-size: 12px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="containter">
+    <div class="image-container">
+      <img src="decoration/標題.png" alt="Title">
+    </div>
+    <div class="blinking-text">
+      <span>點擊任意位置</span>
+    </div>
+    <div class="bottom-text">
+      <p>本網站純屬同人作品非官方沒有營利純粹用愛發電<p>
+    </div>
+  </div>
+  <script>
+    document.addEventListener('click',
+      function(){
+        window.location.href ='nextPage.html';
+      });
+  </script>
+</body>
+
+</html>
