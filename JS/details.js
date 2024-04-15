@@ -1,6 +1,6 @@
 const images = [
   'cards/達文西_愚者_黎希.png',
-  'cards/I.png',
+  'cards/托內莉可_魔術師_LuluBell.png',
   'cards/瓊安_女祭司_程.png',
   'cards/III.png',
   'cards/吉爾伽美什-國王-毛毛羽.png',
