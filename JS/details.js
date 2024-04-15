@@ -53,7 +53,7 @@ const infoData = [
   { mainTitle: 'XVI<br>高塔The Tower', subTitle: '梅林', message: 'ILLUST:厚<br>FB:<a href="https://www.facebook.com/profile.php?id=100003473371235" target="_blank">厚</a><br>Twitter:@klj_sh' },
   { mainTitle: 'XVII<br>星星The Star', subTitle: '阿爾托莉雅‧Caster', message: 'ILLUST:七瀨藍<br>FB:<a href="http://www.facebook.com/chonoran" target="_blank">Ai Nanase</a><br>Twitter:@naganoaoi' },
   { mainTitle: 'XVIII<br>月亮The Moon', subTitle: '安東尼奧‧薩里耶利', message: 'ILLUST:Veno<br>FB:<a href="https://www.facebook.com/profile.php?id=100083681565224&mibextid=LQQJ4d" target="_blank">Veno Chen</a>' },
-  { mainTitle: 'XIX<br>太陽The Sun', subTitle: '貝德維爾', message: 'ILLUST:若艾<br>FB:<a href="https://example.com" target="_blank">臉書名</a>' },
+  { mainTitle: 'XIX<br>太陽The Sun', subTitle: '貝德維爾', message: 'ILLUST:若艾<br>FB:<a href="https://www.facebook.com/profile.php?id=100087956006434&mibextid=ZbWKwL" target="_blank">盧艾</a><br>Twitter:@norai0813' },
   { mainTitle: 'XX<br>審判Judgement', subTitle: '特斯卡特利波卡', message: 'ILLUST:艾拉<br>FB:<a href="https://www.facebook.com/profile.php?id=100038906257198&mibextid=ZbWKwL" target="_blank">マンドリカリドの木の剣</a><br>Twitter:@Ella79840488' },
   { mainTitle: 'XXI<br>世界The World', subTitle: '阿周那(Alter)', message: 'ILLUST:樹上青鳥<br>FB:<a href="https://www.facebook.com/qingniao413" target="_blank">樹上青鳥</a><br>Twitter:@__qingniao413' },
   { mainTitle: 'Ace of Wands', subTitle: '貞德(Alter)', message: 'ILLUST:平原<br>FB:<a href="https://www.facebook.com/profile.php?id=100094274112428" target="_blank">マグ メル</a><br>Twitter:@garanheigen' },
